@@ -1,0 +1,6 @@
+framework module YDShareSDK {
+  umbrella header "YDShareSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

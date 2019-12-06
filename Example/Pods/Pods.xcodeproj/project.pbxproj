@@ -1,0 +1,1532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		38986664EBE0043A3614949E53335639 /* MOBFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MOBFoundation;
+			productName = MOBFoundation;
+		};
+		896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5BA1890CED833CBEE2A8FCEA8C4A5E7 /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5AC33E39328D3C324B267A510CE5499B /* PBXTargetDependency */,
+				7F77D5F2E2895862AE5E686550C885E6 /* PBXTargetDependency */,
+				3792276F0221280F92979D4EDF23E290 /* PBXTargetDependency */,
+				186AA21EC5C25F32F6A8E6BE40AFAC82 /* PBXTargetDependency */,
+				434DB66172D851D8AECAA9706329B101 /* PBXTargetDependency */,
+			);
+			name = mob_sharesdk;
+			productName = mob_sharesdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		008466832D4E1861D3D6E80C2D3A2663 /* WeChat.js in Resources */ = {isa = PBXBuildFile; fileRef = 20E6452E5BD09F29BC0DB2FBDD6F32BD /* WeChat.js */; };
+		12F0874541787F6B5CFBD13E4439B1C6 /* SinaWeibo.js in Resources */ = {isa = PBXBuildFile; fileRef = ACF90A00633E89A4A6B3072D050003C0 /* SinaWeibo.js */; };
+		15D6C3367CB97396A9B9BBFABD19427D /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 925753A57EFD686056703DF5AFDD52AE /* zh-Hans.lproj */; };
+		1F50D962FAAD906FF997DDA71F789CD5 /* Pods-YDShareSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EB54A969EB1161BE3E05203173C5DD /* Pods-YDShareSDK_Tests-dummy.m */; };
+		29C7475372068B4D5830D62670123641 /* YDShareSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CBFAC02306117A7A5E4C3531FA48C4 /* YDShareSDK-dummy.m */; };
+		32506A8F452934EDC909772785BA56FA /* Pods-YDShareSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE6BD08229BE6BF08DCE8279B7EC9B1 /* Pods-YDShareSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ED2EE5124BDF11C070C68153ED9CFA3 /* NativeExt.js in Resources */ = {isa = PBXBuildFile; fileRef = 156B57D7CE27D635FD9F39BDD5D89E54 /* NativeExt.js */; };
+		431C29D1DA97FAD64C8238448783686D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		49E4960A01F945956EAADF4B51A6D507 /* QQ.js in Resources */ = {isa = PBXBuildFile; fileRef = 892985B4C09FD960DEFF809057241BEF /* QQ.js */; };
+		4F95D41B1F96F7756FE640CA59CCCDB9 /* Pods-YDShareSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F81A8E5FAF670785FCED1CD07517E0A7 /* Pods-YDShareSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6572266FC3B1B745DFA22FBEE45BFC62 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3BF3030DD1526E926C879F7A9C66AF38 /* en.lproj */; };
+		8D1B0F317099A8B0C60802D77760FFAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9E7A7E7B82AA543765C5FE875FC17CF4 /* YDShareSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB93A809CF570F15B906EA5DD49C0BA /* YDShareSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B90136010301F296B4F893DB4F9B0025 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E5702889A831EB0AFC73448E98C9680F /* Base.lproj */; };
+		BA65434FB4083C78155F43C6A5B74308 /* ShareSDK.js in Resources */ = {isa = PBXBuildFile; fileRef = 8C749A7D5AE27400FC5F4DD6B715A2E9 /* ShareSDK.js */; };
+		DBD128AC546BAEDB36B540B54E91825D /* Pods-YDShareSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D0C924E88F6889686A620D5D599AE /* Pods-YDShareSDK_Example-dummy.m */; };
+		F22E3ABC7A74033F27885F076CE4EC4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068E21648D5F10EF328FFDA76B19C2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D778643A9AE0DE5A8180843B2ACB4A;
+			remoteInfo = "mob_sharesdk-ShareSDK";
+		};
+		31DA82B6A65CF6FD014B3556CCF40794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9D5748036DDD838A46DA7F8E166467;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_WeChat";
+		};
+		43A6AA744777134AE454978347E82732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896D955B58107744A37D25F4F2AD6607;
+			remoteInfo = mob_sharesdk;
+		};
+		4E82B3293ADE8769BFE57C465A1AB46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77186A53030C4B2BF0A2F8233F189A8C;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_SinaWeibo";
+		};
+		59C69EBD03A264404ABF1486306AD324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D264658F7793C958B38F0F7FD0ACD498;
+			remoteInfo = "Pods-YDShareSDK_Example";
+		};
+		74393EE5B191B0F01F507AF2564321E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38986664EBE0043A3614949E53335639;
+			remoteInfo = MOBFoundation;
+		};
+		B7D89CAF5F930CFD4365A5719746950F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CEF6841ABF7BDA32F2922EBF1FD61E;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_QQ";
+		};
+		BFB4EE7ABE12516796B49B806028C0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F4E5013E7B3CE36CFCDFBC0387B905;
+			remoteInfo = YDShareSDK;
+		};
+		C1E46D342BA4084C111D61204F975FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38986664EBE0043A3614949E53335639;
+			remoteInfo = MOBFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EB54A969EB1161BE3E05203173C5DD /* Pods-YDShareSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDShareSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		156B57D7CE27D635FD9F39BDD5D89E54 /* NativeExt.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = NativeExt.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/NativeExt.js; sourceTree = "<group>"; };
+		1C310AACF0775B927A4FC4DF6937CCA6 /* Pods-YDShareSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShareSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F8B8C109DFA9B32840E9928A2F8D90F /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
+		201FE402F04A5DB6F7B067795FE59019 /* Pods-YDShareSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDShareSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		20CF238906F06C77DEEBDBDCEBB193F9 /* Pods-YDShareSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDShareSDK_Example.modulemap"; sourceTree = "<group>"; };
+		20E6452E5BD09F29BC0DB2FBDD6F32BD /* WeChat.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = WeChat.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/WeChat.js; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		350C554C774994E2478080348C539C3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		38B7F725336BFE47F7007905E1422D9C /* YDShareSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDShareSDK-Info.plist"; sourceTree = "<group>"; };
+		3AE6BD08229BE6BF08DCE8279B7EC9B1 /* Pods-YDShareSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDShareSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3BF3030DD1526E926C879F7A9C66AF38 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/en.lproj; sourceTree = "<group>"; };
+		434D9B8CD07E559761F5D59ED3888493 /* MOBFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.xcconfig; sourceTree = "<group>"; };
+		43CD2DBD882161FE119EF05E61963C8D /* Pods_YDShareSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDShareSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4561E2211E2845125B337EF96E2A09AC /* Pods-YDShareSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShareSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45D6D2903C8BBBC7C6F48F70F94F5032 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46A2DA4675B99A2C5BF94E5595C9DBD6 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApi.h; sourceTree = "<group>"; };
+		4A2C43BEA6ACF9568DDDFECFB2754F8A /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		51C2AF6E7B997C4CC7EFE263D8D08EA6 /* Pods-YDShareSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShareSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		595D3F31BF7963BD9F7D51EA1C2006D2 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
+		5AE6349213FBEE335484097B50041466 /* ResourceBundle-ShareSDK_JS_QQ-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_QQ-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		5D50E8077D8384E67C78B9EC3ED3C816 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		603036EEAA22856F6708838176BA1F68 /* Pods-YDShareSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShareSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		60615535D1899C05C5E00B042320149B /* SinaWeiboConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SinaWeiboConnector.framework; path = ShareSDK/Support/PlatformConnector/SinaWeiboConnector.framework; sourceTree = "<group>"; };
+		68245B59B66FDCCD29A0B3C22F5182F8 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundation.framework; path = MOBFoundation/MOBFoundation.framework; sourceTree = "<group>"; };
+		6A4F2CDDB8CBBAE227D3F4E49591BAB9 /* Pods-YDShareSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDShareSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		770F57DC44DFC183B0227362537690CA /* WechatConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WechatConnector.framework; path = ShareSDK/Support/PlatformConnector/WechatConnector.framework; sourceTree = "<group>"; };
+		7925B13A484926FD0CEA34189AC43C29 /* ResourceBundle-ShareSDK_JS_SinaWeibo-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_SinaWeibo-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		796091331E7C41F556196DA1D7093E25 /* YDShareSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDShareSDK-prefix.pch"; sourceTree = "<group>"; };
+		7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_sharesdk.xcconfig; sourceTree = "<group>"; };
+		7D613EDC6FD3EF9EA8D4FD6EAB003592 /* YDShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC30E7127DF2BEE769DC08D78686218 /* Pods-YDShareSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDShareSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80D3493F4998FE3F8F7AE909FE925C7A /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QQConnector.framework; path = ShareSDK/Support/PlatformConnector/QQConnector.framework; sourceTree = "<group>"; };
+		82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E141CE239A24C600F88662 /* YDShareSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YDShareSDKManager.h; path = YDShareSDK/Classes/YDShareSDKManager.h; sourceTree = "<group>"; };
+		84E141CF239A24C700F88662 /* YDShareSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YDShareSDKManager.m; path = YDShareSDK/Classes/YDShareSDKManager.m; sourceTree = "<group>"; };
+		892985B4C09FD960DEFF809057241BEF /* QQ.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = QQ.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/QQ.js; sourceTree = "<group>"; };
+		8C749A7D5AE27400FC5F4DD6B715A2E9 /* ShareSDK.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = ShareSDK.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/ShareSDK.js; sourceTree = "<group>"; };
+		8CB93A809CF570F15B906EA5DD49C0BA /* YDShareSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDShareSDK-umbrella.h"; sourceTree = "<group>"; };
+		8F34E0C5ADDFEAD1C1B076568E402170 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		925753A57EFD686056703DF5AFDD52AE /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "ShareSDK/Support/Required/ShareSDK.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		98BE6721F0FC65B5CD74DF04EF902D0F /* Pods-YDShareSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShareSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		999D0C924E88F6889686A620D5D599AE /* Pods-YDShareSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDShareSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEC332F245670FF0D6289E1EAC83E0A /* ShareSDK_JS_WeChat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDK_JS_WeChat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2761B1F62EFFAA4C7D2649C8C770EF5 /* ShareSDK_JS_SinaWeibo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDK_JS_SinaWeibo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64DADCBEAFCB6A69B7007A6E0F896F0 /* ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		A8A98EADA9AFC9968B1CAA2F07E11C79 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		A97625D635AC0DAB59D5EE1A7F5A4012 /* YDShareSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDShareSDK.xcconfig; sourceTree = "<group>"; };
+		AB46EBB923F0C107C170E5E4C2085493 /* Pods-YDShareSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDShareSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACF90A00633E89A4A6B3072D050003C0 /* SinaWeibo.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = SinaWeibo.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/SinaWeibo.js; sourceTree = "<group>"; };
+		AF4114D1971E6FBA73AA65974D661AB9 /* YDShareSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDShareSDK.modulemap; sourceTree = "<group>"; };
+		B2CCA463C858025D407CDFC71BFC2399 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		B3E67E7EDF3A16F3325B941D9444E4DC /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundationEx.framework; path = MOBFoundation/MOBFoundationEx.framework; sourceTree = "<group>"; };
+		B6A54B287B61A3734BD7BAAE5FEE1007 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		BD2990D851107A6FD9F44E71A43622E5 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		C5A90892C48038F50B4D54C08C4BD98B /* YDShareSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDShareSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CB27E4BD5B789C6C5FC5CF14158307C4 /* Pods-YDShareSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShareSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CF0EB53CCE1539BF1B1E6A95650101C9 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		D5AF20A6C25EA22F86186EA1736611F1 /* Pods-YDShareSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShareSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D75692BEA707A5F8990C2E5761327F38 /* Pods_YDShareSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDShareSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3DED502ECBA5DD6FABB39006C98C8E /* Pods-YDShareSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShareSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E857D16024B69272FC098EEFE8B832 /* Pods-YDShareSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDShareSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		E5702889A831EB0AFC73448E98C9680F /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/Base.lproj; sourceTree = "<group>"; };
+		EE678487FE47CD830AA173DA8159500B /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		F81A8E5FAF670785FCED1CD07517E0A7 /* Pods-YDShareSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDShareSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		F8CBFAC02306117A7A5E4C3531FA48C4 /* YDShareSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDShareSDK-dummy.m"; sourceTree = "<group>"; };
+		F9CAC245D70BDBD979D92AE7C0A53154 /* ShareSDK_JS_QQ.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareSDK_JS_QQ.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47325AF1EB459300F4C50C227F02C73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED10F778A189CBB5510B61E4B915BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18FCCCA4364BB3F451674CB8285FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC3D237B2AB632F885259BD684C099F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91186A12CA5C80C53CA32E56F86FC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431C29D1DA97FAD64C8238448783686D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04F4539EEB5B9035AD458E2C05CDDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1B0F317099A8B0C60802D77760FFAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB1E00D7263B37B5FDD454116E146C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22E3ABC7A74033F27885F076CE4EC4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F5EB47F113C34FADA3FF5016F70C2E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45D6D2903C8BBBC7C6F48F70F94F5032 /* LICENSE */,
+				350C554C774994E2478080348C539C3D /* README.md */,
+				C5A90892C48038F50B4D54C08C4BD98B /* YDShareSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		079F1EAEBC26677D383B12582CFF6A1C /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				595D3F31BF7963BD9F7D51EA1C2006D2 /* WBHttpRequest.h */,
+				4A2C43BEA6ACF9568DDDFECFB2754F8A /* WeiboSDK.h */,
+				FE6DE294AF2FB3777A413B75E249780C /* Frameworks */,
+				A56114880A6F150435F7FE9194EC1DE4 /* Resources */,
+			);
+			name = SinaWeibo;
+			sourceTree = "<group>";
+		};
+		08867EBB66D4F7386A3EE7369C063965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D3493F4998FE3F8F7AE909FE925C7A /* QQConnector.framework */,
+				BD2990D851107A6FD9F44E71A43622E5 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D31B53ACD65FA5E51510F1373D30EA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */,
+				A8A98EADA9AFC9968B1CAA2F07E11C79 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */,
+				5AE6349213FBEE335484097B50041466 /* ResourceBundle-ShareSDK_JS_QQ-mob_sharesdk-Info.plist */,
+				7925B13A484926FD0CEA34189AC43C29 /* ResourceBundle-ShareSDK_JS_SinaWeibo-mob_sharesdk-Info.plist */,
+				A64DADCBEAFCB6A69B7007A6E0F896F0 /* ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mob_sharesdk";
+			sourceTree = "<group>";
+		};
+		21A6B37A717AF57368283E3D0130A5C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE678487FE47CD830AA173DA8159500B /* ShareSDK.framework */,
+				CF0EB53CCE1539BF1B1E6A95650101C9 /* ShareSDKConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B91D19083F661AD2C13750FFFD1746 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A78C48850F239397A3DB2612F8616191 /* YDShareSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28A1453612FE55763EC6C09673F4D0A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68245B59B66FDCCD29A0B3C22F5182F8 /* MOBFoundation.framework */,
+				B3E67E7EDF3A16F3325B941D9444E4DC /* MOBFoundationEx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E684E9ADEA5A0197909A2F2747EB367 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4114D1971E6FBA73AA65974D661AB9 /* YDShareSDK.modulemap */,
+				A97625D635AC0DAB59D5EE1A7F5A4012 /* YDShareSDK.xcconfig */,
+				F8CBFAC02306117A7A5E4C3531FA48C4 /* YDShareSDK-dummy.m */,
+				38B7F725336BFE47F7007905E1422D9C /* YDShareSDK-Info.plist */,
+				796091331E7C41F556196DA1D7093E25 /* YDShareSDK-prefix.pch */,
+				8CB93A809CF570F15B906EA5DD49C0BA /* YDShareSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YDShareSDK";
+			sourceTree = "<group>";
+		};
+		59D435AA662912C1CE940BA4FB6F24BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20E6452E5BD09F29BC0DB2FBDD6F32BD /* WeChat.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CE07B2E00D32B30E7ED98B1E01D2DD8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				434D9B8CD07E559761F5D59ED3888493 /* MOBFoundation.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MOBFoundation";
+			sourceTree = "<group>";
+		};
+		613F56B6D6B7B4B5A8E6DC5660D429A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2556D3C628981FAF62C368F3451EA7 /* Pods-YDShareSDK_Example */,
+				AAE2C2F66932B1EF7CBBC0B8561EA66E /* Pods-YDShareSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66EA182A4EB2CCF95BBDA4CC3A11EC88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				892985B4C09FD960DEFF809057241BEF /* QQ.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		689A58512B160A31F0FDDD8D98A20A84 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				5D50E8077D8384E67C78B9EC3ED3C816 /* WechatAuthSDK.h */,
+				46A2DA4675B99A2C5BF94E5595C9DBD6 /* WXApi.h */,
+				8F34E0C5ADDFEAD1C1B076568E402170 /* WXApiObject.h */,
+				C839DF0C8045D8FACA6950B27F9AD24B /* Frameworks */,
+				59D435AA662912C1CE940BA4FB6F24BD /* Resources */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		6BA06436D1AA915078F3BB49B7B11B7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED97C2D4D034F2FAB6598B46345645F /* mob_sharesdk */,
+				D6DF398962E7D93E3ECB6CEFE9A8524E /* MOBFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F97012884AC04BDD89D4F85737AD30D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5702889A831EB0AFC73448E98C9680F /* Base.lproj */,
+				3BF3030DD1526E926C879F7A9C66AF38 /* en.lproj */,
+				156B57D7CE27D635FD9F39BDD5D89E54 /* NativeExt.js */,
+				8C749A7D5AE27400FC5F4DD6B715A2E9 /* ShareSDK.js */,
+				925753A57EFD686056703DF5AFDD52AE /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A2A994411B97B4508A6A86EB04B56D9E /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				21A6B37A717AF57368283E3D0130A5C2 /* Frameworks */,
+				8F97012884AC04BDD89D4F85737AD30D /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		A56114880A6F150435F7FE9194EC1DE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACF90A00633E89A4A6B3072D050003C0 /* SinaWeibo.js */,
+				1F8B8C109DFA9B32840E9928A2F8D90F /* WeiboSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A78C48850F239397A3DB2612F8616191 /* YDShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				84E141CE239A24C600F88662 /* YDShareSDKManager.h */,
+				84E141CF239A24C700F88662 /* YDShareSDKManager.m */,
+				01F5EB47F113C34FADA3FF5016F70C2E /* Pod */,
+				3E684E9ADEA5A0197909A2F2747EB367 /* Support Files */,
+			);
+			name = YDShareSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AAE2C2F66932B1EF7CBBC0B8561EA66E /* Pods-YDShareSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				201FE402F04A5DB6F7B067795FE59019 /* Pods-YDShareSDK_Tests.modulemap */,
+				AB46EBB923F0C107C170E5E4C2085493 /* Pods-YDShareSDK_Tests-acknowledgements.markdown */,
+				D5AF20A6C25EA22F86186EA1736611F1 /* Pods-YDShareSDK_Tests-acknowledgements.plist */,
+				08EB54A969EB1161BE3E05203173C5DD /* Pods-YDShareSDK_Tests-dummy.m */,
+				98BE6721F0FC65B5CD74DF04EF902D0F /* Pods-YDShareSDK_Tests-Info.plist */,
+				3AE6BD08229BE6BF08DCE8279B7EC9B1 /* Pods-YDShareSDK_Tests-umbrella.h */,
+				DC3DED502ECBA5DD6FABB39006C98C8E /* Pods-YDShareSDK_Tests.debug.xcconfig */,
+				603036EEAA22856F6708838176BA1F68 /* Pods-YDShareSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-YDShareSDK_Tests";
+			path = "Target Support Files/Pods-YDShareSDK_Tests";
+			sourceTree = "<group>";
+		};
+		AB2556D3C628981FAF62C368F3451EA7 /* Pods-YDShareSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				20CF238906F06C77DEEBDBDCEBB193F9 /* Pods-YDShareSDK_Example.modulemap */,
+				7EC30E7127DF2BEE769DC08D78686218 /* Pods-YDShareSDK_Example-acknowledgements.markdown */,
+				1C310AACF0775B927A4FC4DF6937CCA6 /* Pods-YDShareSDK_Example-acknowledgements.plist */,
+				999D0C924E88F6889686A620D5D599AE /* Pods-YDShareSDK_Example-dummy.m */,
+				6A4F2CDDB8CBBAE227D3F4E49591BAB9 /* Pods-YDShareSDK_Example-frameworks.sh */,
+				CB27E4BD5B789C6C5FC5CF14158307C4 /* Pods-YDShareSDK_Example-Info.plist */,
+				E4E857D16024B69272FC098EEFE8B832 /* Pods-YDShareSDK_Example-resources.sh */,
+				F81A8E5FAF670785FCED1CD07517E0A7 /* Pods-YDShareSDK_Example-umbrella.h */,
+				4561E2211E2845125B337EF96E2A09AC /* Pods-YDShareSDK_Example.debug.xcconfig */,
+				51C2AF6E7B997C4CC7EFE263D8D08EA6 /* Pods-YDShareSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-YDShareSDK_Example";
+			path = "Target Support Files/Pods-YDShareSDK_Example";
+			sourceTree = "<group>";
+		};
+		B6FB5109CDE1BF5C5B3BC58C0CA48AF9 /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				F58A06B8734C6DBBED1E925BEA08DECD /* QQ */,
+				079F1EAEBC26677D383B12582CFF6A1C /* SinaWeibo */,
+				689A58512B160A31F0FDDD8D98A20A84 /* WeChat */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		BD163AF5F9AD4B78F3B046C8963B2872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43CD2DBD882161FE119EF05E61963C8D /* Pods_YDShareSDK_Example.framework */,
+				D75692BEA707A5F8990C2E5761327F38 /* Pods_YDShareSDK_Tests.framework */,
+				82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */,
+				F9CAC245D70BDBD979D92AE7C0A53154 /* ShareSDK_JS_QQ.bundle */,
+				A2761B1F62EFFAA4C7D2649C8C770EF5 /* ShareSDK_JS_SinaWeibo.bundle */,
+				9DEC332F245670FF0D6289E1EAC83E0A /* ShareSDK_JS_WeChat.bundle */,
+				7D613EDC6FD3EF9EA8D4FD6EAB003592 /* YDShareSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C839DF0C8045D8FACA6950B27F9AD24B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A54B287B61A3734BD7BAAE5FEE1007 /* libWeChatSDK.a */,
+				770F57DC44DFC183B0227362537690CA /* WechatConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED97C2D4D034F2FAB6598B46345645F /* mob_sharesdk */ = {
+			isa = PBXGroup;
+			children = (
+				A2A994411B97B4508A6A86EB04B56D9E /* ShareSDK */,
+				B6FB5109CDE1BF5C5B3BC58C0CA48AF9 /* ShareSDKPlatforms */,
+				0D31B53ACD65FA5E51510F1373D30EA6 /* Support Files */,
+			);
+			path = mob_sharesdk;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				22B91D19083F661AD2C13750FFFD1746 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6BA06436D1AA915078F3BB49B7B11B7B /* Pods */,
+				BD163AF5F9AD4B78F3B046C8963B2872 /* Products */,
+				613F56B6D6B7B4B5A8E6DC5660D429A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6DF398962E7D93E3ECB6CEFE9A8524E /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				28A1453612FE55763EC6C09673F4D0A6 /* Frameworks */,
+				5CE07B2E00D32B30E7ED98B1E01D2DD8 /* Support Files */,
+			);
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		F58A06B8734C6DBBED1E925BEA08DECD /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				08867EBB66D4F7386A3EE7369C063965 /* Frameworks */,
+				66EA182A4EB2CCF95BBDA4CC3A11EC88 /* Resources */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		FE6DE294AF2FB3777A413B75E249780C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2CCA463C858025D407CDFC71BFC2399 /* libWeiboSDK.a */,
+				60615535D1899C05C5E00B042320149B /* SinaWeiboConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DE4E2016486DBCC135B7D1EA418A0D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7A7E7B82AA543765C5FE875FC17CF4 /* YDShareSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BF9D948D3D9747AF33F9C1AA1D071A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32506A8F452934EDC909772785BA56FA /* Pods-YDShareSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9126FEDC61DB97E280BEE85530530CCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F95D41B1F96F7756FE640CA59CCCDB9 /* Pods-YDShareSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45F4E5013E7B3CE36CFCDFBC0387B905 /* YDShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E793D26D2BFB66ADF408E6938EBF5B47 /* Build configuration list for PBXNativeTarget "YDShareSDK" */;
+			buildPhases = (
+				1DE4E2016486DBCC135B7D1EA418A0D9 /* Headers */,
+				A9A9A8AC7C68D6478D2C052D33F061CC /* Sources */,
+				E04F4539EEB5B9035AD458E2C05CDDF9 /* Frameworks */,
+				40A3E19ED44A8DF67D86C535C0A7598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDShareSDK;
+			productName = YDShareSDK;
+			productReference = 7D613EDC6FD3EF9EA8D4FD6EAB003592 /* YDShareSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477F3F454ADDC1D3C053BED9DFFDECE5 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */;
+			buildPhases = (
+				B4B67BD043990B3AB0692CEB7095DE53 /* Sources */,
+				AA18FCCCA4364BB3F451674CB8285FB9 /* Frameworks */,
+				96F17B3E65143734A03067E86F46B939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK";
+			productName = "mob_sharesdk-ShareSDK";
+			productReference = 82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6F9D5748036DDD838A46DA7F8E166467 /* mob_sharesdk-ShareSDK_JS_WeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D30C61ECD478032945AA7D31EDD129 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_WeChat" */;
+			buildPhases = (
+				2805A68898E3ECD0739FFC6E12F86241 /* Sources */,
+				BEC3D237B2AB632F885259BD684C099F /* Frameworks */,
+				B3D5C45D72566CA25722B20987A77682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_WeChat";
+			productName = "mob_sharesdk-ShareSDK_JS_WeChat";
+			productReference = 9DEC332F245670FF0D6289E1EAC83E0A /* ShareSDK_JS_WeChat.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		77186A53030C4B2BF0A2F8233F189A8C /* mob_sharesdk-ShareSDK_JS_SinaWeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C55E1F060479E59CE8348EAB54656BF /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_SinaWeibo" */;
+			buildPhases = (
+				EC0B3937DFCB78AB8D8BF1DC27C67642 /* Sources */,
+				47325AF1EB459300F4C50C227F02C73B /* Frameworks */,
+				45A87E96C3B6EE2932B787D5D5FCD034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_SinaWeibo";
+			productName = "mob_sharesdk-ShareSDK_JS_SinaWeibo";
+			productReference = A2761B1F62EFFAA4C7D2649C8C770EF5 /* ShareSDK_JS_SinaWeibo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		79CEF6841ABF7BDA32F2922EBF1FD61E /* mob_sharesdk-ShareSDK_JS_QQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6576A263CF1ACB978EBDEDD253464AB6 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_QQ" */;
+			buildPhases = (
+				815B2E29A0DB316947258ED1EFBB89B7 /* Sources */,
+				9ED10F778A189CBB5510B61E4B915BD1 /* Frameworks */,
+				A7AEFCCE93A483FE350E998BD05BF007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_QQ";
+			productName = "mob_sharesdk-ShareSDK_JS_QQ";
+			productReference = F9CAC245D70BDBD979D92AE7C0A53154 /* ShareSDK_JS_QQ.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D264658F7793C958B38F0F7FD0ACD498 /* Pods-YDShareSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140BF2A406333331953E73E7CBAC07A5 /* Build configuration list for PBXNativeTarget "Pods-YDShareSDK_Example" */;
+			buildPhases = (
+				9126FEDC61DB97E280BEE85530530CCF /* Headers */,
+				E0F2F160DED1C4087B8AD1884B6FDDFF /* Sources */,
+				D91186A12CA5C80C53CA32E56F86FC8C /* Frameworks */,
+				A3C457F6381448371EE040B05020DC46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2362675B69EE209919B9DA56AC0A250 /* PBXTargetDependency */,
+				0C4187136F9498971B9AC4E88E863206 /* PBXTargetDependency */,
+				63AFC200AD682C1456EBAC14011E35A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-YDShareSDK_Example";
+			productName = "Pods-YDShareSDK_Example";
+			productReference = 43CD2DBD882161FE119EF05E61963C8D /* Pods_YDShareSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2D1754804C6947921618498960CF8D0 /* Pods-YDShareSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D19771A30F56F6358F90C1DB7C84F4 /* Build configuration list for PBXNativeTarget "Pods-YDShareSDK_Tests" */;
+			buildPhases = (
+				42BF9D948D3D9747AF33F9C1AA1D071A /* Headers */,
+				8D5BD6D03E8109CBA792CDC01C97BA12 /* Sources */,
+				FEB1E00D7263B37B5FDD454116E146C5 /* Frameworks */,
+				B2E3D7DCB9F8C96771552E8E3FB8A4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C6BAB1E1737CF6B44E909E0448C020 /* PBXTargetDependency */,
+			);
+			name = "Pods-YDShareSDK_Tests";
+			productName = "Pods-YDShareSDK_Tests";
+			productReference = D75692BEA707A5F8990C2E5761327F38 /* Pods_YDShareSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BD163AF5F9AD4B78F3B046C8963B2872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */,
+				53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */,
+				79CEF6841ABF7BDA32F2922EBF1FD61E /* mob_sharesdk-ShareSDK_JS_QQ */,
+				77186A53030C4B2BF0A2F8233F189A8C /* mob_sharesdk-ShareSDK_JS_SinaWeibo */,
+				6F9D5748036DDD838A46DA7F8E166467 /* mob_sharesdk-ShareSDK_JS_WeChat */,
+				38986664EBE0043A3614949E53335639 /* MOBFoundation */,
+				D264658F7793C958B38F0F7FD0ACD498 /* Pods-YDShareSDK_Example */,
+				D2D1754804C6947921618498960CF8D0 /* Pods-YDShareSDK_Tests */,
+				45F4E5013E7B3CE36CFCDFBC0387B905 /* YDShareSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A3E19ED44A8DF67D86C535C0A7598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A87E96C3B6EE2932B787D5D5FCD034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0874541787F6B5CFBD13E4439B1C6 /* SinaWeibo.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F17B3E65143734A03067E86F46B939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90136010301F296B4F893DB4F9B0025 /* Base.lproj in Resources */,
+				6572266FC3B1B745DFA22FBEE45BFC62 /* en.lproj in Resources */,
+				3ED2EE5124BDF11C070C68153ED9CFA3 /* NativeExt.js in Resources */,
+				BA65434FB4083C78155F43C6A5B74308 /* ShareSDK.js in Resources */,
+				15D6C3367CB97396A9B9BBFABD19427D /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C457F6381448371EE040B05020DC46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AEFCCE93A483FE350E998BD05BF007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E4960A01F945956EAADF4B51A6D507 /* QQ.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E3D7DCB9F8C96771552E8E3FB8A4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D5C45D72566CA25722B20987A77682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008466832D4E1861D3D6E80C2D3A2663 /* WeChat.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2805A68898E3ECD0739FFC6E12F86241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815B2E29A0DB316947258ED1EFBB89B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5BD6D03E8109CBA792CDC01C97BA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F50D962FAAD906FF997DDA71F789CD5 /* Pods-YDShareSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A9A8AC7C68D6478D2C052D33F061CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C7475372068B4D5830D62670123641 /* YDShareSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B67BD043990B3AB0692CEB7095DE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F2F160DED1C4087B8AD1884B6FDDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD128AC546BAEDB36B540B54E91825D /* Pods-YDShareSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0B3937DFCB78AB8D8BF1DC27C67642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C4187136F9498971B9AC4E88E863206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YDShareSDK;
+			target = 45F4E5013E7B3CE36CFCDFBC0387B905 /* YDShareSDK */;
+			targetProxy = BFB4EE7ABE12516796B49B806028C0D7 /* PBXContainerItemProxy */;
+		};
+		186AA21EC5C25F32F6A8E6BE40AFAC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_WeChat";
+			target = 6F9D5748036DDD838A46DA7F8E166467 /* mob_sharesdk-ShareSDK_JS_WeChat */;
+			targetProxy = 31DA82B6A65CF6FD014B3556CCF40794 /* PBXContainerItemProxy */;
+		};
+		3792276F0221280F92979D4EDF23E290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_SinaWeibo";
+			target = 77186A53030C4B2BF0A2F8233F189A8C /* mob_sharesdk-ShareSDK_JS_SinaWeibo */;
+			targetProxy = 4E82B3293ADE8769BFE57C465A1AB46F /* PBXContainerItemProxy */;
+		};
+		434DB66172D851D8AECAA9706329B101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
+			targetProxy = C1E46D342BA4084C111D61204F975FEB /* PBXContainerItemProxy */;
+		};
+		5AC33E39328D3C324B267A510CE5499B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK";
+			target = 53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */;
+			targetProxy = 068E21648D5F10EF328FFDA76B19C2B7 /* PBXContainerItemProxy */;
+		};
+		63AFC200AD682C1456EBAC14011E35A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mob_sharesdk;
+			target = 896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */;
+			targetProxy = 43A6AA744777134AE454978347E82732 /* PBXContainerItemProxy */;
+		};
+		66C6BAB1E1737CF6B44E909E0448C020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YDShareSDK_Example";
+			target = D264658F7793C958B38F0F7FD0ACD498 /* Pods-YDShareSDK_Example */;
+			targetProxy = 59C69EBD03A264404ABF1486306AD324 /* PBXContainerItemProxy */;
+		};
+		7F77D5F2E2895862AE5E686550C885E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_QQ";
+			target = 79CEF6841ABF7BDA32F2922EBF1FD61E /* mob_sharesdk-ShareSDK_JS_QQ */;
+			targetProxy = B7D89CAF5F930CFD4365A5719746950F /* PBXContainerItemProxy */;
+		};
+		D2362675B69EE209919B9DA56AC0A250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
+			targetProxy = 74393EE5B191B0F01F507AF2564321E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023F1944FD1FF67185AFF860FD9CFC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_WeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0BA4209BEC65877EB1F334C98569A601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603036EEAA22856F6708838176BA1F68 /* Pods-YDShareSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShareSDK_Tests/Pods-YDShareSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShareSDK_Tests/Pods-YDShareSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A3FC37427ACEA0502A530247585BB91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_SinaWeibo-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_SinaWeibo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		343E684C55308AA21C664DFE655AAE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3DED502ECBA5DD6FABB39006C98C8E /* Pods-YDShareSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShareSDK_Tests/Pods-YDShareSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShareSDK_Tests/Pods-YDShareSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3539553C2B9C81F45EB5C89256F32413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36DE9C72D90FE1F07E82F8C906CEEF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434D9B8CD07E559761F5D59ED3888493 /* MOBFoundation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AEF28CCA4F379E360BAFF687AD5FD31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434D9B8CD07E559761F5D59ED3888493 /* MOBFoundation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA545CC2FD43100AFC05CAFCED9B81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_QQ-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_QQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5107B808E3208AB71D6D566132AFD90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C2AF6E7B997C4CC7EFE263D8D08EA6 /* Pods-YDShareSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShareSDK_Example/Pods-YDShareSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShareSDK_Example/Pods-YDShareSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71A7DF9A38FA2168E3D0D08EB265763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7B199CE2F3544D903FD9256431537366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DDC56D8D4E519C5DD2C41C0620DC3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_SinaWeibo-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_SinaWeibo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A8504C02C565701292B8DE1052B3A475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ACA73297D2D94DFFD5B3D4C0B78D2010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_WeChat-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_WeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B40826B825F54214655B1AAE1BA66F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97625D635AC0DAB59D5EE1A7F5A4012 /* YDShareSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDShareSDK/YDShareSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDShareSDK/YDShareSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDShareSDK/YDShareSDK.modulemap";
+				PRODUCT_MODULE_NAME = YDShareSDK;
+				PRODUCT_NAME = YDShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B740A98636F0D0FC385F72314648F05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38B6B2277B77954B2B1A2B301AFB0E /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_QQ-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_QQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CAABDF8A134880DE5A0DCB5C93D30388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4561E2211E2845125B337EF96E2A09AC /* Pods-YDShareSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShareSDK_Example/Pods-YDShareSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShareSDK_Example/Pods-YDShareSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA5273056947A27A818073ED6C3C1B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97625D635AC0DAB59D5EE1A7F5A4012 /* YDShareSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDShareSDK/YDShareSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDShareSDK/YDShareSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDShareSDK/YDShareSDK.modulemap";
+				PRODUCT_MODULE_NAME = YDShareSDK;
+				PRODUCT_NAME = YDShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140BF2A406333331953E73E7CBAC07A5 /* Build configuration list for PBXNativeTarget "Pods-YDShareSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAABDF8A134880DE5A0DCB5C93D30388 /* Debug */,
+				5107B808E3208AB71D6D566132AFD90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C55E1F060479E59CE8348EAB54656BF /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_SinaWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3FC37427ACEA0502A530247585BB91 /* Debug */,
+				9DDC56D8D4E519C5DD2C41C0620DC3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D30C61ECD478032945AA7D31EDD129 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_WeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA73297D2D94DFFD5B3D4C0B78D2010 /* Debug */,
+				023F1944FD1FF67185AFF860FD9CFC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477F3F454ADDC1D3C053BED9DFFDECE5 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A7DF9A38FA2168E3D0D08EB265763C /* Debug */,
+				A8504C02C565701292B8DE1052B3A475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6576A263CF1ACB978EBDEDD253464AB6 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_QQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA545CC2FD43100AFC05CAFCED9B81E /* Debug */,
+				B740A98636F0D0FC385F72314648F05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D19771A30F56F6358F90C1DB7C84F4 /* Build configuration list for PBXNativeTarget "Pods-YDShareSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343E684C55308AA21C664DFE655AAE32 /* Debug */,
+				0BA4209BEC65877EB1F334C98569A601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AEF28CCA4F379E360BAFF687AD5FD31 /* Debug */,
+				36DE9C72D90FE1F07E82F8C906CEEF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E793D26D2BFB66ADF408E6938EBF5B47 /* Build configuration list for PBXNativeTarget "YDShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5273056947A27A818073ED6C3C1B5D /* Debug */,
+				B40826B825F54214655B1AAE1BA66F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BA1890CED833CBEE2A8FCEA8C4A5E7 /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3539553C2B9C81F45EB5C89256F32413 /* Debug */,
+				7B199CE2F3544D903FD9256431537366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

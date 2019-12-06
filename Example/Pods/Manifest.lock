@@ -1,0 +1,42 @@
+PODS:
+  - mob_sharesdk (4.3.4):
+    - mob_sharesdk/ShareSDK (= 4.3.4)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.3.4):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.3.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.3.4):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.7)
+  - YDShareSDK (0.1.0)
+
+DEPENDENCIES:
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - YDShareSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - mob_sharesdk
+    - MOBFoundation
+
+EXTERNAL SOURCES:
+  YDShareSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mob_sharesdk: ecee6e8ba42f76a252a40d2da7a1f7301b9831d6
+  MOBFoundation: d7f72ac1447ab5794a57e3930730b1c3822f5033
+  YDShareSDK: eb3fbb4066e5972a12bc187c26a29a8db9848ebf
+
+PODFILE CHECKSUM: 48abd854282cebad2def3c2d0ad8bdb709df709f
+
+COCOAPODS: 1.8.4
