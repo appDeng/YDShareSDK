@@ -184,10 +184,18 @@
 			isa = PBXGroup;
 			children = (
 				B1C94F6BA19C6C97D23C20EB /* YDShareSDK.podspec */,
+				84E141D0239A538A00F88662 /* New Group */,
 				B75A974BC7CF4B391BF3EB49 /* README.md */,
 				1AFBE321507D5C984C433C61 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		84E141D0239A538A00F88662 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 		E31870C64A311E960D7F8625 /* Pods */ = {
