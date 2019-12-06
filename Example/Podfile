@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YDShareSDK_Example' do
+  pod 'YDShareSDK', :path => '../'
+
+  target 'YDShareSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
