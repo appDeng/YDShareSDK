@@ -7,8 +7,6 @@
 //
 
 #import "YDShareSDKManager.h"
-#import <ShareSDK/ShareSDK.h>
-
 //分享
 #import <ShareSDK/ShareSDK.h>
 #import <ShareSDKConnector/ShareSDKConnector.h>
