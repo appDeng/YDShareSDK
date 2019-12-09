@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YDShareSDK'
   s.version          = '0.1.0'
-  s.summary          = '移动中台YDShareSDK.'
+  s.summary          = '移动中台 YDShareSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
